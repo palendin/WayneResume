@@ -34,18 +34,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
-
-Use create-next-app for projects where SEO, fast load times, and server-rendering capabilities are priorities, or if you need a built-in API for backend functionality.
-Use create-react-app if you’re building a standard single-page application or want a flexible setup for a client-side app without server-rendering needs.
-Their folder structure is a little different
-
-Folder structure for a typical app after npx create-next-app@latest <app name>:
-src/
-├── app/
-│   └── page.tsx      # Main page content
-└── components/
-    ├── Header.tsx    # Header component
-    └── Footer.tsx    # Footer component
-
-Note that .next folder is a temporary build output that can be safely deleted, as it will regenerate the next time you run or build your app.

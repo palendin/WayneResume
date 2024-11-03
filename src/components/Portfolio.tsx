@@ -10,7 +10,7 @@ const Portfolio = () => {
       <header className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center">
-            <h1 className="text-3xl font-bold text-gray-900">Wayne Wu</h1>
+            <h1 className="text-3xl font-bold text-black">Wayne Wu</h1>
             <div className="flex space-x-4">
               <a href="https://www.linkedin.com/in/weiyin-wu-0ab38b32" className="text-gray-500 hover:text-gray-700">
                 <Linkedin className="h-6 w-6" />
@@ -45,7 +45,7 @@ const Portfolio = () => {
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Technical Skills</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div>
-                <h3 className="font-semibold mb-2">Data Science & Programming</h3>
+                <h3 className="font-semibold text-gray-900 mb-2">Data Science & Programming</h3>
                 <ul className="list-disc pl-4 text-gray-600">
                   <li>Python (Plotly, Dash, SQL)</li>
                   <li>Machine Learning (Scikit-learn, TensorFlow)</li>
@@ -55,7 +55,7 @@ const Portfolio = () => {
                 </ul>
               </div>
               <div>
-                <h3 className="font-semibold mb-2">Bioprocess Engineering</h3>
+                <h3 className="font-semibold text-gray-900 mb-2">Bioprocess Engineering</h3>
                 <ul className="list-disc pl-4 text-gray-600">
                   <li>Fermentation</li>
                   <li>Cell Culture</li>
@@ -65,7 +65,7 @@ const Portfolio = () => {
                 </ul>
               </div>
               <div>
-                <h3 className="font-semibold mb-2">Tools & Platforms</h3>
+                <h3 className="font-semibold text-gray-900 mb-2">Tools & Platforms</h3>
                 <ul className="list-disc pl-4 text-gray-600">
                   <li>LabVIEW</li>
                   <li>API Integration</li>
@@ -84,7 +84,7 @@ const Portfolio = () => {
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Professional Experience</h2>
             <div className="space-y-6">
               <div>
-                <h3 className="font-semibold">Associate Data Scientist - Vitrolabs Inc</h3>
+                <h3 className="font-semibold text-gray-900 mb-2">Associate Data Scientist - Vitrolabs Inc</h3>
                 <p className="text-gray-500">June 2023 - October 2024</p>
                 <ul className="list-disc pl-4 text-gray-600 mt-2">
                   <li>Designed and implemented company-wide SQL database with Lookerstudio integration</li>
@@ -95,7 +95,7 @@ const Portfolio = () => {
                 </ul>
               </div>
               <div>
-                <h3 className="font-semibold">Senior Associate Scientist - Amyris</h3>
+                <h3 className="font-semibold text-gray-900 mb-2">Senior Associate Scientist - Amyris</h3>
                 <p className="text-gray-500">April 2021 - June 2023</p>
                 <ul className="list-disc pl-4 text-gray-600 mt-2">
                   <li>Automated fermentation calculations using Python/SQL</li>
@@ -113,7 +113,7 @@ const Portfolio = () => {
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Featured Projects</h2>
             <div className="space-y-8">
               <div>
- <h3 className="text-xl font-semibold mb-4">Medical Data Analysis Dashboards</h3>
+ <h3 className="font-semibold text-gray-900 mb-4">Medical Data Analysis Dashboards</h3>
         <div className="space-y-4">
           <a 
             href="/dashboards/mdr-tb" 
@@ -139,7 +139,7 @@ const Portfolio = () => {
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold mb-4">Technical Projects</h3>
+                <h3 className="font-semibold text-gray-900 mb-4">Technical Projects</h3>
                 <ul className="list-disc pl-4 text-gray-600 space-y-2">
                   <li>Plotly Dash application for data visualization, deployed via Docker and Render</li>
                   <li>Automated gaming scripts using Autohotkey and TensorFlow YOLO for image recognition</li>
@@ -157,7 +157,7 @@ const Portfolio = () => {
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Education</h2>
             <div className="space-y-4">
               <div>
-                <h3 className="font-semibold">Master of Science in Chemical Engineering</h3>
+                <h3 className="font-semibold text-gray-900">Master of Science in Chemical Engineering</h3>
                 <p className="text-gray-600">University of California, Davis</p>
                 <p className="text-gray-500">GPA: 3.8 | Graduated September 2018</p>
               </div>
